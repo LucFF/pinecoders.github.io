@@ -1,3 +1,13 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147975914-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147975914-1');
+</script>
+
 [<img src="http://Pinecoders.com/images/PineCodersLong.png">](http://pinecoders.com)
 
 # Digital Signal Processing In Pine, by [Alex Grover](https://www.tradingview.com/u/alexgrover/#published-scripts)
@@ -36,7 +46,7 @@ A periodic signal is a signal that repeats itself after some time. The image bel
 
 Periodic signals possess characteristics such as **cycles**, **period**, **frequency** and **amplitude**. The **cycles** are the number of times the signal repeat himself, the **period** represents the duration of one cycle, the **frequency** is the number of cycles made by the signal in one unit of time and is calculated as the reciprocal of the **period** or `1/period`, and finally the amplitude is the highest absolute value of the signal.   
 
-### Generate Periodic Signals
+### Generating Periodic Signals
 
 The simplest periodic signal is the **sine wave** and is computed in Pine as follows:
 
@@ -405,3 +415,5 @@ a := nz(a[1],input) + input
 ```
 
 For examples of DSP techniques used in Pine scripts, see my indicators [here](https://www.tradingview.com/u/alexgrover/#published-scripts).
+
+**[Back to top](#table-of-contents)**
