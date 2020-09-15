@@ -14,11 +14,11 @@
 
 This document provides a list of Pine-related resources and tools.
 
-**Disclaimer**: Except the work for hire Pine programmers, we do not endorse the third-party tools and resources mentioned here, and their inclusion here does not imply any guarantee of their worthiness. So please, before you decide to purchase anything, show due diligence and do your own research.
+**Disclaimer**  
+Except the work for hire Pine programmers, we do not endorse the third-party tools and resources mentioned here, and their inclusion here does not imply any guarantee of their worthiness. So please, before you decide to purchase anything, show due diligence and do your own research.
 
-PineCoders does not benefit from the adoption of these tools. **This document contains no affiliate links.**
-
-> The original version of this document was written by [chrysopoetics](https://www.tradingview.com/u/chrysopoetics/), a TradingView member.<br>We are grateful to him for allowing us to maintain it. **Thanks Hermes!**
+PineCoders does not benefit from the adoption of these tools.  
+**This document contains no affiliate links.**
 
 ### Table of Contents
 
@@ -215,3 +215,5 @@ Well-known TV Pine coder [everget](https://www.tradingview.com/u/everget/) has a
 <br>
 
 **[Back to top](#pine-resources)**
+
+> The original version of this document was written by [chrysopoetics](https://www.tradingview.com/u/chrysopoetics/), a TradingView member.<br>We are grateful to him for allowing us to maintain it. **Thanks Hermes!**
