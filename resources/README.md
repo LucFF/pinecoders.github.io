@@ -75,9 +75,9 @@ We have also begun publishing guides. See our first: the [Digital Signal Process
 
 
 ## Educational Content
-[Kodify](https://kodify.net/tradingview-programming-articles/): The indispensable and largest, most complete and well-written set of in-depth articles on Pine. Articles discuss many finer points of Pine not covered elsewhere. More than 200 articles to help you master Pine.
+[Kodify](https://kodify.net/tradingview-programming-articles/): The indispensable and largest, most complete and well-written set of in-depth articles on Pine outside TradingView. Articles discuss many finer points of Pine not covered elsewhere. More than 200 articles to help you master Pine, and particularly well-suited to coders for whom  Pine is their first programming language.
 
-[Backtest Rookies](https://backtest-rookies.com/category/tradingview/): They produce very quality material illustrating many of the typical tasks or subjects Pine coders want to do or explore.
+[Backtest Rookies](https://backtest-rookies.com/category/tradingview/): They produce in-depth, quality material illustrating many of the typical tasks or subjects Pine coders want to do or explore.
 
 [PuppyTherapy (Medium)](https://medium.com/@PuppyTherapy): This is the Medium account of a TradingView user by the same name. You may have used or seen his APEX indicators.
 
