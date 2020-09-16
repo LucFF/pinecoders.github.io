@@ -8,7 +8,7 @@
   gtag('config', 'UA-147975914-1');
 </script>
 
-[<img src="http://pinecoders.com/images/PineCodersLong.png">](http://pinecoders.com)
+[<img src="https://www.pinecoders.com/images/PineCodersLong.png">](https://www.pinecoders.com/)
 
 # Pine Resources
 
@@ -27,12 +27,13 @@ PineCoders does not benefit from the adoption of these tools.
 - [Educational Content](#educational-content)
 - [Forums](#forums)
 - [Videos](#videos)
-- [Work For Hire Pine Programmers](#work-for-hire-pine-programmers)
+- [Trusted Pine Programmers for Hire](#trusted-pine-programmers-for-hire)
 - [Automated Order Execution](#automated-order-execution)
 - [Text Editor Highlighters for Pine](#text-editor-highlighters-for-pine)
-- [Color Pickers](#color-pickers-or-palettes)
+- [Color Pickers](#color-pickers-or-tools)
 - [Unicode characters](#unicode-characters)
 - [On GitHub](#on-github)
+- [Technical Information on Indicators](#technical-information-on-indicators)
 
 <br><br>
 ## TradingView
@@ -58,26 +59,27 @@ Visit the *Scripts* page of good scripters publishing open source by using the [
 
 
 ## PineCoders
-From our <a href="http://www.pinecoders.com">home page</a> you can access the following:
+From our <a href="https://www.pinecoders.com">home page</a> you can access the following:
 
-- Our <a href="http://www.pinecoders.com/learning_pine_roadmap">Learning Pine Roadmap</a> for newcomers which also has tips on what to do when you get stuck.
-- Our <a href="http://www.pinecoders.com/faq_and_code">FAQ & Code</a> which answers common—and not so common—questions asked by Pine coders, with answers or links to answers.
-- Our <a href="http://www.pinecoders.com/coding_conventions">Coding Conventions</a> provide standard guidelines for writing Pine.
+- Our <a href="https://www.pinecoders.com/learning_pine_roadmap">Learning Pine Roadmap</a> for newcomers which also has tips on what to do when you get stuck.
+- Our <a href="https://www.pinecoders.com/faq_and_code">FAQ & Code</a> which answers common—and not so common—questions asked by Pine coders, with answers or links to answers.
+- Our <a href="https://www.pinecoders.com/coding_conventions">Coding Conventions</a> provide standard guidelines for writing Pine.
 - [Tools and educational Pine code on TradingView](https://www.tradingview.com/u/PineCoders/#published-scripts). We use our TradingView account to publish useful or fun code snippets, as well as full-blown tools like our [Backtesting-Trading Engine](https://www.tradingview.com/script/dYqL95JB-Backtesting-Trading-Engine-PineCoders/).
-- We co-manage with TradingView's Pine team the [Suggestions for Improvement to Pine](https://trello.com/b/Jmv6c8Cx/tradingview-rfcs) Trello board.
 
 Our managed [PineCoders Repository](https://github.com/pinecoders/pine-utils) on GitHub contains:
 - [Snippets](https://github.com/pinecoders/pine-utils/tree/master/snippets) of reusable code,
 - Tricks and techniques to help you accomplish frequently needed tasks,
 - [Other open source projects](https://github.com/pinecoders) related to Pine.
 
-We have also begun publishing guides. See our first: the [Digital Signal Processing In Pine](http://www.pinecoders.com/techniques/dsp) written by [Alex Grover](https://www.tradingview.com/u/alexgrover/#published-scripts).
+We have also begun publishing guides. See our first: the [Digital Signal Processing In Pine](https://www.pinecoders.com/techniques/dsp) written by [Alex Grover](https://www.tradingview.com/u/alexgrover/#published-scripts).
 
 
 ## Educational Content
 [Kodify](https://kodify.net/tradingview-programming-articles/): The indispensable and largest, most complete and well-written set of in-depth articles on Pine outside TradingView. Articles discuss many finer points of Pine not covered elsewhere. More than 200 articles to help you master Pine, and particularly well-suited to coders for whom  Pine is their first programming language.
 
 [Backtest Rookies](https://backtest-rookies.com/category/tradingview/): They produce in-depth, quality material illustrating many of the typical tasks or subjects Pine coders want to do or explore.
+
+TradingView user [Quansium](https://www.tradingview.com/u/Quansium/) has a well-written and detailed article on the steps he follows to create a strategy: [How To Create A Simple Trading Strategy With TradingView](https://medium.com/@quansium/how-to-create-a-simple-trading-strategy-with-tradingview-7a9fea3cffc1).
 
 [PuppyTherapy (Medium)](https://medium.com/@PuppyTherapy): This is the Medium account of a TradingView user by the same name. You may have used or seen his APEX indicators.
 
@@ -95,13 +97,15 @@ We answer questions in two public forums: the [Pine Script chat](https://www.tra
 
 [Squiggly Lion (YouTube)](https://www.youtube.com/channel/UC4O-W0DfsAfPYPbxws2dIOw): Good quality tutorials.
 
-[m1xolyd1an (YouTube)](https://www.youtube.com/user/m1xolyd1an/featured): This guy doesn’t seem that many videos on Pine but he produces quite a lot of other content.
+[m1xolyd1an (YouTube)](https://www.youtube.com/user/m1xolyd1an/featured): This guy doesn’t have that many videos on Pine but he produces quite a lot of other content.
 
 [Market Calls (YouTube)](https://www.youtube.com/user/marketcalls/featured): Has many videos on trading concepts and a handful about TradingView and Pine.
 
+[BigBits (YouTube)](https://www.youtube.com/user/dpjohnson2009) has good-quality Pine tutorials. He also publishes some educational scripts from his [BigBitsIO](https://www.tradingview.com/u/BigBitsIO/#published-scripts) TradingView account.
+
 For Russian coders: [Китобойная](https://www.youtube.com/channel/UCZDHaKrCwsbgoVZ27fAclCw?view_as=subscriber).
 
-## Work For Hire Pine Programmers
+## Trusted Pine Programmers for Hire
 These are Pine programmers we know and endorse, who have a good reputation of providing quality, paid Pine custom-coding services. While you can inquire to any number of them, it is considered very poor etiquette to send bulk inquiries to all. These programmers are all very good, and they are also very busy. Finding one who is free and willing to work with you will sometimes be a challenge.
 
 Business transactions are to be carried between you and them. Neither PineCoders nor TradingView will be involved in your relationship with the programmers, and we do not benefit from your business with them.
@@ -114,39 +118,86 @@ If you have a project to code:
 - They will tell you if they are free, if they require more information, and often provide suggestions or alternatives.
 - If they want to work with you, they will provide an estimate of the costs so you will be able to decide if you want to pursue the project.
 
-> Tip: As we mentioned, these are busy people. Trying to negociate unreasonable prices with them will not be to your advantage, as programmers will simply choose other customers to work with.
+> Tip: As we mentioned, these are busy people. Trying to negotiate unreasonable prices with them will not be to your advantage, as programmers will simply choose other customers to work with.
 
-- [a.tesla2018](https://www.tradingview.com/u/a.tesla2018/)<br>B.S. Electrical Engineering and Computer Science with 10+ years experience in C, C++, HDL and lately, Pine.
-- [BacktestRookies](https://www.tradingview.com/u/BacktestRookies/#published-scripts)<br>Fumble through backtesting one step at a time with [backtest-rookies.com](https://backtest-rookies.com). A site dedicated to providing free step by step tutorials aimed at those with a passion for the market but no formal programming background. For the rest of you who have the passion but no desire to spend hours pecking at the keyboard, Backtest Rookies also provide custom programming services to develop algorithms and tools in Pine and/or Python.
-- [Daveatt](https://www.tradingview.com/u/Daveatt/)<br>Ex quant trader with 5 years professional experience now developing indicators and bots for retail clients. Specializes in Pine Script, MT4, LUA (FXCM) and ProRealCode.
-- [DonovanWall](https://www.tradingview.com/u/DonovanWall)<br>Former math instructor with a background in audio engineering and signal processing. Offers custom indicator and strategy development, as well as conversions to Pine from other platforms.
-- [Duyck](https://www.tradingview.com/u/Duyck/)<br>Joris is an experienced and creative Pine coder who prefers to work on indicators rather than strategies. He can also convert open source indicators to Pine from other platforms, namely MQL4.
-- [everget](https://www.tradingview.com/u/everget/)<br>Bachelor of Mathematics (B Math) and skilled full stack Web developer. 6+ years of programming experience in JavaScript, Node js, Python, Ruby and Lua. In the last 3+ years he has also developed custom interfaces, indicators strategies and advisors in Pine and MetaTrader's MQL.
-- [glaz](https://www.tradingview.com/u/glaz/)<br>Works on indicators only (no strategies). Has been coding in Pine for 6 years and does indicator ports from other platforms.
-- [mortdiggiddy](https://www.tradingview.com/u/mortdiggiddy/)<br>10 years experience in software developmentand. B.S. in Mechanical and Aerospace Engineering. Forex, futures, stocks and options trader for 8 years. He is experienced in developing autonomous trading strategies in Pine and JavaScript.
-- [MVPMC](https://www.tradingview.com/u/MVPMC/)<br>Ambitious junior Web developer offering conversions and development of indicators and strategies.
-- [paaax](https://www.tradingview.com/u/paaax/)<br>Offering services for study and strategy development, alert automation, custom-made indicators, market screener and other services on Tradingview.
-- [QuantNomad](https://www.tradingview.com/u/QuantNomad/#published-scripts)<br>Quant Developer/Analyst with 5+ years of experience. Area of expertise: Pine Script, R, Python, Futures, Options, Crypto.
-- [theheirophant](https://www.tradingview.com/u/theheirophant/#published-scripts)<br>Heiro has 2 years experience programming automated trading solutions. Fluent in javascript, google apps script, html/css; learning python. Emphasis on outside the box thinking, with strengths in quantitative principles, filtration/signal processing, triggers, and automation.
+<br><br>
+
+<a href="https://www.tradingview.com/u/theheirophant/#published-scripts"><img src="https://s3.tradingview.com/userpics/2448504-vcxI.png" alt="theheirophant" height="25" width="25" style="vertical-align: text-top;"> theheirophant</a>  
+Heiro has 2 years experience programming automated trading solutions. Fluent in javascript, google apps script, html/css; learning python. Emphasis on outside the box thinking, with strengths in quantitative principles, filtration/signal processing, triggers, and automation.<br><br>
+
+<a href="https://www.tradingview.com/u/QuantNomad/#published-scripts"><img src="https://s3.tradingview.com/userpics/351999-6orT.png" alt="QuantNomad" height="25" width="25" style="vertical-align: text-top;"> QuantNomad</a>  
+Quant Developer/Analyst with 5+ years of experience. Area of expertise: Pine Script, R, Python, Futures, Options, Crypto.<br><br>
+
+<a href="https://www.tradingview.com/u/paaax/"><img src="https://s3.tradingview.com/userpics/953360-EB35.png" alt="paaax" height="25" width="25" style="vertical-align: text-top;"> paaax</a>  
+Pascal holds a Bachelor of Science degree in Business Informatics and is a full-stack software developer with 10+ years of experience. He is proficient in Pine Script, JavaScript, Python and builds web and trading applications. Furthermore, he contributes open-source scripts to the Public Library on a regular basis.<br><br>
+
+<a href="https://www.tradingview.com/u/MVPMC/"><img src="https://s3.tradingview.com/userpics/1778326-viRH.png" alt="MVPMC" height="25" width="25" style="vertical-align: text-top;"> MVPMC</a>  
+Ambitious junior Web developer offering conversions and development of indicators and strategies.<br><br>
+
+<a href="https://www.tradingview.com/u/mortdiggiddy/"><img src="https://s3.tradingview.com/userpics/625941-VZkU.png" alt="mortdiggiddy" height="25" width="25" style="vertical-align: text-top;"> mortdiggiddy</a>  
+10 years experience in software developmentand. B.S. in Mechanical and Aerospace Engineering. Forex, futures, stocks and options trader for 8 years. He is experienced in developing autonomous trading strategies in Pine and JavaScript.<br><br>
+
+<!--
+<a href="https://www.tradingview.com/u/midtownsk8rguy/#published-scripts"><img src="https://s3.tradingview.com/userpics/3510454-qjOs.png" alt="midtownsk8rguy" height="25" width="25" style="vertical-align: text-top;"> midtownsk8rguy</a>  
+Quant-minded, self-propelled, double analytical Pine Script consultant. Innovative design of next-generation algorithmic technologies. study() oriented quality developer of eye candy indicators. Porting proficient, having fluency with EasyLanguage, PRC, EFS, LUA & MQL.<br><br>
+-->
+
+<a href="https://www.tradingview.com/u/makit0/#published-scripts"><img src="https://s3.tradingview.com/userpics/3680780-XTVc.png" alt="makit0" height="25" width="25" style="vertical-align: text-top;"> makit0</a>  
+Full stack Java developer, sysadmin & DBA since 2008, trading and learning from the markets since 2018, Pine coder since 2019. If you have an idea, I can code it. If you have some coding skills, I can help you code it.<br><br>
+
+<img src="https://s3.tradingview.com/userpics/141457-2UEo.png" alt="Jos Kodify" style="vertical-align: text-top;" width="25" height="25"> [Jos from Kodify](https://kodify.net/programming-services/) has written over 250 articles on all things Pine Script. He has over 5 years of experience coding TradingView indicators and strategies. He also has extensive experience with MultiCharts and MultiCharts.NET, a good understanding of TradeStation, and a working knowledge of MetaTrader.<br><br>
+
+<a href="https://www.tradingview.com/u/glaz/"><img src="https://s3.tradingview.com/userpics/25545.png" alt="glaz" height="25" width="25" style="vertical-align: text-top;"> glaz</a>  
+Works on indicators only (no strategies). Has been coding in Pine for 6 years and does indicator ports from other platforms.<br><br>
+
+<a href="https://www.tradingview.com/u/everget/"><img src="https://s3.tradingview.com/userpics/875112-sevS.png" alt="everget" height="25" width="25" style="vertical-align: text-top;"> everget</a>  
+Bachelor of Mathematics (B Math) and skilled full stack Web developer. 6+ years of programming experience in JavaScript, Node js, Python, Ruby and Lua. In the last 3+ years he has also developed custom interfaces, indicators strategies and advisors in Pine and MetaTrader's MQL.<br><br>
+
+<a href="https://www.tradingview.com/u/e2e4mfck"><img src="https://s3.tradingview.com/userpics/927153-D5Bf.png" alt="e2e4mfck" height="25" width="25" style="vertical-align: text-top;"> e2e4mfck</a>  
+Architect, Data Scientist, Trader. Develops custom indicators, screeners & data visualizations in C#, Pine Script, ThinkScript, Lua.<br><br>
+
+<a href="https://www.tradingview.com/u/Duyck"><img src="https://s3.tradingview.com/userpics/1828453-Ui5J.png" alt="Duyck" height="25" width="25" style="vertical-align: text-top;"> Duyck</a>  
+Joris is an experienced and creative Pine coder who prefers to work on indicators rather than strategies. He can also convert open source indicators to Pine from other platforms, namely MQL4.<br><br>
+
+<a href="https://www.tradingview.com/u/DonovanWall"><img src="https://s3.tradingview.com/userpics/853710-ucMB.png" alt="DonovanWall" height="25" width="25" style="vertical-align: text-top;"> DonovanWall</a>  
+Former math instructor with a background in audio engineering and signal processing. Offers custom indicator and strategy development, as well as conversions to Pine from other platforms.<br><br>
+
+<a href="https://www.tradingview.com/u/DayTradingOil/"><img src="https://s3.tradingview.com/userpics/2787322-h7Al.png" alt="DayTradingOil" height="25" width="25" style="vertical-align: text-top;"> DayTradingOil</a>  
+With experience in Pine Script, Python, HTML, CSS, and EasyLanguage since 2014, I am a creative, outside-the-box thinking developer who looks forward to working with you to bring your ideas to life in TradingView. Services include script/alert creation, script modifications, automated trading systems, custom indicators, etc.<br><br>
+
+<a href="https://www.tradingview.com/u/Daveatt/"><img src="https://s3.tradingview.com/userpics/1019763-MiAm.png" alt="Daveatt" height="25" width="25" style="vertical-align: text-top;"> Daveatt</a>  
+Ex quant trader with 5 years professional experience now developing indicators and bots for retail clients. Specializes in Pine Script, MT4, LUA (FXCM) and ProRealCode.<br><br>
+
+<a href="https://www.tradingview.com/u/BacktestRookies/#published-scripts"><img src="https://s3.tradingview.com/userpics/1041044-i8Nm.png" alt="BacktestRookies" height="25" width="25" style="vertical-align: text-top;"> BacktestRookies</a>  
+Fumble through backtesting one step at a time with [backtest-rookies.com](https://backtest-rookies.com). A site dedicated to providing free step by step tutorials aimed at those with a passion for the market but no formal programming background. For the rest of you who have the passion but no desire to spend hours pecking at the keyboard, Backtest Rookies also provide custom programming services to develop algorithms and tools in Pine and/or Python.<br><br>
+
+<a href="https://www.tradingview.com/u/a.tesla2018/"><img src="https://s3.tradingview.com/userpics/1622138-uwgx.png" alt="a.tesla2018" height="25" width="25" style="vertical-align: text-top;"> a.tesla2018</a>  
+B.S. Electrical Engineering and Computer Science with 10+ years experience in C, C++, and HDL.
+I specialize in Digital Signal Processing (DSP) and developing custom study/strategy indicators/MAs in Pine, with more than one year of  intense experience. References available upon request. I strive to give my clients a better version of what they were thinking.<br><br>
 
 A few other suppliers of such services, unverified by PineCoders:
 - [7G Trading Tools](http://7gtradingtools.com/): Provides bespoke programming for trading strategies in multiple languages. Run by a guy called Mark Cottons. 
-- [Codementor](https://www.codementor.io/pine-script-experts): This is simply a search for Pine script developers through the codementor platform.
 - [Kick studios](http://kickstudios.com/retail-trading-dev-services/) offers custom Pine script development.
 
 
 ## Automated Order Execution
-[Alertatron](https://alertatron.com/): A service that allows you to relay TradingView alerts to Telegram, Discord, Slack, Email or webhooks, with a chart snapshot attached. The developer is well-known in the PineCoders community.
-
 [3Commas](https://3commas.io/): Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.
 
-[ProfitView](https://wiki.profitview.app/home): Google Chrome extension that receives TV alerts and relays orders to crypto exchanges. Among PineCoders, has the reputation of being better than AutoView.
+[Alertatron](https://alertatron.com/): A service that allows you to relay TradingView alerts to Telegram, Discord, Slack, Email or webhooks, with a chart snapshot attached. The developer is well-known in the PineCoders community.
 
 [AutoView](https://autoview.with.pink/): Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.
 
+[Cryptohopper](https://www.cryptohopper.com): Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.
+
 [Instabot](https://instabot42.github.io/): An open source execution engine that relays orders received from HTTP requests to Bitfinex, Deribit and Coinbase Pro, with support for Bitmex and Binance planned.
 
-[TradingView alerts to MT4](https://www.tradingconnector.com/) receives TV alerts and converts them into instant orders on MT4 (and MT5 soon) in forex, indices and commodities markets. Latency is below 1 second.
+[ProfitView](https://wiki.profitview.app/home): Google Chrome extension that receives TV alerts and relays orders to crypto exchanges. Among PineCoders, has the reputation of being better than AutoView.
+
+[TradingView alerts to MT4/MT5](https://www.tradingconnector.com/) receives TV alerts and converts them into instant orders on MT4/MT5 in forex, indices and commodities markets. Latency is below 1 second.
+
+### For developers
+
+Backtest Rookies has developed [tv2bt](https://backtest-rookies.com/2019/11/22/tv2bt-tradingview-to-backtrader-module/): *a data feed for Backtrader which will allow you to receive trade signals and/or OHLCV data from Tradingview. It aims to open access to the plethora of open source strategies and indicators on the Tradingview and allow you to use them to influence your own live strategies. In addition, it can also be used to find some good, reliable intra-day data.*
 
 
 ## Text Editor Highlighters for Pine
@@ -161,7 +212,7 @@ A few other suppliers of such services, unverified by PineCoders:
 [GNU Emacs major-mode](https://github.com/EricCrosson/pine-script-mode)
 
 
-## Color Pickers or Palettes
+## Color Pickers or Tools
 [w3schools.com](https://www.w3schools.com/colors/default.asp)
 
 [ColorHexa](https://www.colorhexa.com/)
@@ -178,8 +229,14 @@ A few other suppliers of such services, unverified by PineCoders:
 
 [december.com](https://www.december.com/html/spec/)
 
+[Kodify has a long list of Hex colors](https://kodify.net/tradingview/colours/hexadecimal-colours/#lists-of-hexadecimal-colour-values-for-tradingview)
+
+[Color Ramp](http://www.zonums.com/online/color_ramp/)
+
 
 ## Unicode characters
+[Amp What](http://www.amp-what.com/unicode/search/arrow) allows you to search characters by keyword.
+
 [What Unicode character is this?](https://www.babelstone.co.uk/Unicode/whatisit.html)
 
 [Unicode Arrows → ⇒ ⇄ ↻](http://xahlee.info/comp/unicode_arrows.html)
@@ -195,6 +252,8 @@ A few other suppliers of such services, unverified by PineCoders:
 [Unicode Characters in the Geometric Shapes Block](https://www.fileformat.info/info/unicode/block/geometric_shapes/list.htm)
 
 [Unicode/List of useful symbols - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/Unicode/List_of_useful_symbols)
+
+[The Beauty of Unicode: Zero-Width Characters](https://www.ptiglobal.com/2018/04/26/the-beauty-of-unicode-zero-width-characters/)
 
 
 ## On GitHub
@@ -214,6 +273,14 @@ Well-known TV Pine coder [everget](https://www.tradingview.com/u/everget/) has a
 
 <br>
 
+
+## Technical Information on Indicators
+[Concept Index](https://user42.tuxfamily.org/chart/manual/Concept-Index.html#Concept-Index).
+
+<br>
+
 **[Back to top](#pine-resources)**
 
+<br><br>
 > The original version of this document was written by [chrysopoetics](https://www.tradingview.com/u/chrysopoetics/), a TradingView member.<br>We are grateful to him for allowing us to maintain it. **Thanks Hermes!**
+
