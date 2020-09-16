@@ -8,10 +8,9 @@
   gtag('config', 'UA-147975914-1');
 </script>
 
-[<img src="http://pinecoders.com/images/PineCodersLong.png">](http://pinecoders.com)
+[<img src="https://www.pinecoders.com/images/PineCodersLong.png">](https://www.pinecoders.com/)
 
 # Pine Script Coding Conventions
-
 The goal of these Coding Conventions is to present a set of best practices and style guidelines for Pine Script. By making Pine scripts easier to read, these guidelines make open source code more usable, while also providing safeguards that minimize the risk of errors for developers.
 
 ### Table of Contents
@@ -20,6 +19,7 @@ The goal of these Coding Conventions is to present a set of best practices and s
 - [Naming Conventions](#naming-conventions)
 - [Spacing](#spacing)
 - [Line Wrapping](#line-wrapping)
+- [Example Scripts](#example-scripts)
 
 
 <br>
@@ -53,17 +53,17 @@ Here is an example of a complete script:
 study("MACD")
 
 // ————— Inputs
-fast = input(12, "Fast Length")
+i_fast = input(12, "Fast Length")
 // Calculates slow length from fast length and normalizes it if needed.
 f_getSlowLength(_len) =>
     _tempLen = _len * 2
     if _tempLen < 20 or _tempLen > 30
         _tempLen := 25
     _tempLen
-slow = f_getSlowLength(fast)
+slow = f_getSlowLength(i_fast)
 
 // ————— Calculations
-fastMa = ema(close, fast)
+fastMa = ema(close, i_fast)
 slowMa = ema(close, slow)
 macd = fastMa - slowMa
 signal = sma(macd, 9)
@@ -73,7 +73,6 @@ plot(macd, color = color.blue)
 plot(signal, color = color.orange)
 ```
 
-**[Back to top](#table-of-contents)**
 
 <br>
 
@@ -83,6 +82,14 @@ plot(signal, color = color.orange)
 
 We recommend using camelCase for variable names. Example: `emaLength`, `obLevel`, `showSignal2`, `aLongVariableName`.
 
+For large projects, you may find it useful to use prefixes for a few types of variables, to make them more readily identifiable. The following prefixes can then be used:
+
+- `i_` for variables initialized through `input()` calls.
+- `c_` for variables containing colors.
+- `p_` for variables used as `plot` or `hline` identifiers for use in `fill()` calls.
+- All caps for constants, i.e., variables often initialized at the beginning of scripts whose value will not change during execution.
+
+
 ### Function Names
 
 For function names, we recommend using a Hungarian-style `f_` prefix in combination with the usual camelCase. The `f_` prefix guarantees disambiguation between user-defined and built-in functions. Example: `f_sinh`, `f_daysInMonth`.
@@ -90,63 +97,59 @@ For function names, we recommend using a Hungarian-style `f_` prefix in combinat
 ### Function Parameter Names
 
 Function parameters should be prefixed with the underscore in order to differentiate them from global scope variables. Example:
-
-```
+```js
 daysInMonth(_year, _month) =>
 ```
 
 ### Function Dependencies
 
 When a function requires global scope variables to perform its calculations, these dependencies should be documented in comments. Dependencies are to be avoided whenever possible, as they jeopardize function portability and make code more difficult to read.
-
-```
-lenMultiplier = input(2, "Length Multiplier")
+```js
+i_lenMultiplier = input(2, "Length Multiplier")
 
 f_getSlowLength(_len) =>
-    // Dependencies: lenMultiplier (initialized in inputs). 
-    _tempLen = _len * lenMultiplier
+    // Dependencies: i_lenMultiplier (initialized in inputs). 
+    _tempLen = _len * i_lenMultiplier
     if _tempLen < 20 or _tempLen > 30
         _tempLen := 25
     _tempLen
 ```
 
 This is a preferable way to write the same function, which eliminates dependencies:
-
-```
+```js
 f_getSlowLength(_len, _mult) =>
     _tempLen = _len * _mult
     if _tempLen < 20 or _tempLen > 30
         _tempLen := 25
     _tempLen
 ```
+
 ### Local Scope Variable Names
 
 The same underscore prefix used for function parameters should also be used for all local variables. Example:
-```
+```js
 f_getSlowLength(_len) =>
     _tempLen = _len * 2
     if _tempLen < 20 or _tempLen > 30
         _tempLen := 25
     _tempLen
 ```
-```
+```js
 if something
     _myLocalVar = something
 ```
-```
+```js
 for _i = 0 to 100
     _myLocalVar = something[_i]
 ```
 
-**[Back to top](#table-of-contents)**
 
 <br>
 
 ## Spacing
 
 A space should be used on both sides of all operators, whether they be assignment, arithmetic (binary or unary) or logical. A space should also be used after commas. Example:
-
-```
+```js
 a = close > open ? 1 : -1
 var newLen = 2
 newLen := min(20, newlen + 1)
@@ -154,16 +157,15 @@ a = - b
 c = d > e ? d - e : d
 index = bar_index % 2 == 0 ? 1 : 2
 plot(series, color = color.red)
-
 ```
+
 
 <br>
 
 ## Line Wrapping
 
 When lines need to be continued on the next, use two spaces to indent each continuation line. Example:
-
-```
+```js
 plot(
   series = close,
   title = "Close",
@@ -173,8 +175,7 @@ plot(
 ```
 
 Tabs may be used to line up elements in order to increase readability.
-
-```
+```js
 plot(
   series    = close,
   title     = "Close",
@@ -182,5 +183,17 @@ plot(
   show_last = 10
   )
 ```
+
+<br>
+
+## Example Scripts
+
+Some authors use the Coding Conventions systematically:
+- [Bar Balance [LucF]](https://www.tradingview.com/script/lcgCwWwI-Bar-Balance-LucF/)
+- [[e2] Absolute Retracement](https://www.tradingview.com/script/X87V5IBs-e2-Absolute-Retracement/)
+- [Color Gradient (16 colors) Framework - PineCoders FAQ](https://www.tradingview.com/script/EjLGV9qg-Color-Gradient-16-colors-Framework-PineCoders-FAQ/)
+
+
+<br>
 
 **[Back to top](#table-of-contents)**
